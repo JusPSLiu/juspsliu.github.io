@@ -14,7 +14,7 @@ h1 {font-size:500%;}
 h2 {font-size:300%;}
 h3 {font-size:200%;}
 
-nav > h2 {margin:30px}
+nav > h2 {margin:30px 0;white-space:nowrap}
 header > h1 {margin-bottom:0px}
 
 .title {
@@ -27,8 +27,8 @@ header > h1 {margin-bottom:0px}
 /*Default Anchors*/
 a { color:#ff9;text-decoration:none;padding:4px;outline:solid #fff0;border-radius:4px;background-color:#0000;transition-duration:200ms }
 a:hover { color:#ffc;outline:solid #fff;background-color:#000; }
-a.router-link-active { color:white;text-decoration:underline;cursor:default;outline:none }
-a.router-link-active:hover { color:white;text-decoration:underline;outline:none;background-color:#0000 }
+a.router-link-active { color:white;text-decoration:underline;cursor:default;outline:none #fff0 }
+a.router-link-active:hover { color:white;text-decoration:underline;outline:none #fff0;background-color:#0000 }
 
 /*Formatting for .links*/
 .links { margin-top:32px }
