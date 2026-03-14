@@ -1,6 +1,6 @@
-{ 
+{
 	"size": "26",
-	"0": "<font color='#f55'>XSS ATTACK MWAHAHA</font><img src='some_invalid_url' onerror='this.style.display=\"none\";alert(\"XSS ATTACK MWAHAHA\");'>\n0\n0\n0\n0",
+	"0": "Maskollapse\nhttps://github.com/SweetFrontier/Maskollapse\nhttps://juspsliu.itch.io/maskollapse\n1 2 5\nmaskollapse.png\n2026-January; Endless runner game created in team for 2 day Global Game Jam 2026\n\n",
 	"1": "Cheap Rent\nhttps://github.com/JusPSLiu/Triangle-Game\nhttps://juspsliu.itch.io/cheap-rent\n1 2 5\ncheaprent.png\n2026-January; Top-down 2D isometric game created in team for week long Triangle Game Jam 2026\nLearned to program isometric reordering logic\n",
 	"2": "Normbot\nhttps://github.com/404-Sever-Error/6112-Project\n\n0 2 4 7\nnormbot.png\n2025-November; Discord bot group project for capstone created to help create classroom discord servers.\n\n",
 	"3": "Nimfinite Wallpapers\nhttps://github.com/JusPSLiu/NimfiniteWallpapers\n\n0 2 4 12\nnimwal.png\n2025-November; Wallpaper Engine clone using Nim language. This was a group class project (requirements were to collaborate and make anything in an uncommon language)\n\n",
