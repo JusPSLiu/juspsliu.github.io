@@ -14,6 +14,9 @@ h1 {font-size:500%;}
 h2 {font-size:300%;}
 h3 {font-size:200%;}
 
+nav > h2 {margin:30px}
+header > h1 {margin-bottom:0px}
+
 .title {
   color: white;
   font-size:min(6vw, 48px);
@@ -24,7 +27,8 @@ h3 {font-size:200%;}
 /*Default Anchors*/
 a { color:#ff9;text-decoration:none;padding:4px;outline:solid #fff0;border-radius:4px;background-color:#0000;transition-duration:200ms }
 a:hover { color:#ffc;outline:solid #fff;background-color:#000; }
-a.router-link-active { color:white;text-decoration:underline; }
+a.router-link-active { color:white;text-decoration:underline;cursor:default;outline:none }
+a.router-link-active:hover { color:white;text-decoration:underline;outline:none;background-color:#0000 }
 
 /*Formatting for .links*/
 .links { margin-top:32px }
@@ -35,12 +39,14 @@ a.router-link-active { color:white;text-decoration:underline; }
   .module {width: 80%;height: 80vw;}
   .img_container {margin-bottom:max(-80vw,-480px);}
   .links {margin-top:0}
+  .description {margin:auto;width:100%}
 }
 
 /* computer ver */
 @media screen and (min-width: 800px) {
   .module {width: 50%;height: 40vw;}
   .img_container {margin-bottom:max(-40vw,-480px);}
+  .description {margin:auto;width:60%}
 }
 
 .module {
@@ -176,10 +182,12 @@ span.cpp {outline-color:#07f!important;color:#5cf}
 .cpp > img {content:url("/files/logos/cpp.png")}
 span.cs {outline-color:#f0e!important;color:#f0e}
 .cs > img {content:url("/files/logos/csharp.png")}
-span.postgres {outline-color:#59e!important;color:#59e}
-.postgres > img {content:url("/files/logos/postgres.png")}
 span.java {outline-color:#f81!important;color:#f81}
 .java > img {content:url("/files/logos/java.png")}
+span.vue {outline-color:#4fb!important;color:#4fb}
+.vue > img {content:url("/files/logos/vue.png")}
+span.postgres {outline-color:#59e!important;color:#59e}
+.postgres > img {content:url("/files/logos/postgres.png")}
 span.nim {outline-color:#fe5!important;color:#fe5}
 .nim > img {content:url("/files/logos/nimlang.png")}
 span.vhdl {outline-color:#db3!important;color:#db3}
@@ -189,6 +197,8 @@ span.vhdl {outline-color:#db3!important;color:#db3}
 .github > img {content:url("/files/logos/github.png")}
 .lnkdn > img {content:url("/files/logos/lnkdn.png")}
 
+/* Header and footer */
+header { border-bottom: 2px solid #fff;margin-bottom:25px; }
 footer {
   margin-top:200px;
   padding: 1em 0em;
