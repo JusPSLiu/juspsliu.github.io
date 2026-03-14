@@ -1,30 +1,22 @@
 <template>
+  <h1>Jus Liu</h1>
+  <a class='github' href="https://github.com/JusPSLiu">
+    <img class="imgicon"> GitHub
+  </a>
+  <a class='lnkdn' href="https://www.linkedin.com/in/jus-liu-77b032291">
+    <img class="imgicon"> LinkedIn
+  </a>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <h2>
+      <router-link to="/">About</router-link>
+      -
+      <router-link to="/projects">Projects</router-link>
+    </h2>
   </nav>
-  <router-view/>
+  <div class="container">
+    <router-view />
+  </div>
+  <footer style="display: flex; outline-color: white">
+    <p>Jus Liu</p>
+  </footer>
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
