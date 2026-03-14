@@ -44,6 +44,18 @@ a.router-link-active:hover { color:white;text-decoration:underline;outline:none 
   .img_container {margin-bottom:max(-80vw,-480px);}
   .links {margin-top:0}
   .description {margin:auto;width:100%}
+
+  /* smaller tags */
+  .details > .iconblock {
+    font-size:10px;
+    outline-width:2px;
+    margin:2px;
+    padding:2px;
+    user-select: none;
+  }
+  .details > .iconblock > img.imgicon {
+    height:10px;position:relative;top:2px
+  }
 }
 
 /* computer ver */
