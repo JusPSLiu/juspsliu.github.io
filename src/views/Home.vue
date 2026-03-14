@@ -6,7 +6,7 @@
   <div style="margin-top:100px;" class="module">
     <div class="img_container" style="background-image:url('files/docs/cs-bs.jpg');filter:brightness(80%);"></div>
     <div class="txt_container">
-      <strong><span class="title" style="text-shadow: 2px 2px #000;background-color:#0008">Bachelor of Science Degree</span></strong>
+      <strong><span class="title">Bachelor of Science Degree</span></strong>
     </div>
   </div>
 </template>
