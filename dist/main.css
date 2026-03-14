@@ -1,0 +1,200 @@
+:root {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 60px;
+
+  color:white;
+}
+
+body {background-color:#111;}
+
+h1 {font-size:500%;}
+h2 {font-size:300%;}
+h3 {font-size:200%;}
+
+.title {
+  color: white;
+  font-size:min(6vw, 48px);
+  text-align:left;
+  text-decoration:none;
+}
+
+/*Default Anchors*/
+a { color:#ff9;text-decoration:none;padding:4px;outline:solid #fff0;border-radius:4px;background-color:#0000;transition-duration:200ms }
+a:hover { color:#ffc;outline:solid #fff;background-color:#000; }
+a.router-link-active { color:white;text-decoration:underline; }
+
+/*Formatting for .links*/
+.links { margin-top:32px }
+.links p { margin:4px;margin-top:16px }
+
+/* phone ver */
+@media screen and (max-width: 800px) {
+  .module {width: 80%;height: 80vw;}
+  .img_container {margin-bottom:max(-80vw,-480px);}
+  .links {margin-top:0}
+}
+
+/* computer ver */
+@media screen and (min-width: 800px) {
+  .module {width: 50%;height: 40vw;}
+  .img_container {margin-bottom:max(-40vw,-480px);}
+}
+
+.module {
+  background-color: #222;
+  background-image:linear-gradient(to bottom right, #aaa, #444);
+  border: solid white;
+
+  border-radius: 20px;
+  padding: 2em;
+  margin: 1em auto;
+  text-align:left;
+
+  max-width: 800px;
+  max-height: 480px;
+}
+
+.module.hidden {
+  display:none
+}
+
+.txt_container {
+  position:relative;
+  width:96%;
+  height:96%;
+  padding:2%;
+}
+.bottomtext {
+  bottom:10%;
+  font-weight:bold;
+  position:absolute;
+  font-size:min(3vw, 16px);
+}
+
+/*BACKGROUND IMAGE*/
+.img_container {
+  background-color: black;
+  display:block;
+  width: 100%;
+  height: 100%;
+
+  position:relative;
+  z-index:0;
+
+  filter:brightness(35%);
+  border-radius:10px;
+
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  display:flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+div.img_container > img {
+  width:auto;max-width:100%;height:95%;
+}
+
+.filtercontainer {
+  background-color: black;
+  background-image:url("/files/hologram.png");
+  animation: hologram 500ms linear infinite;
+
+  outline:solid #ff0;border-radius: 20px;
+  width:80%;max-width:800px; padding-bottom:20px;
+
+  overflow:hidden;
+  height:var(--filter-scrollheight);
+  transition-duration:500ms
+}
+@keyframes hologram {
+  0% {background-position-y:0px;}
+  100% {background-position-y:8px;}
+}
+.filtercontainer.closed {
+  height:40px;
+}
+#filteropener {
+  color:#000;
+  background-color:#ff0;transition-duration:0.1s;
+  border-radius:6px 6px 0px 0px;
+  width: 50px;height: 26px;border:none;left:min(20%, 60px);
+  position:relative;bottom:25px;
+  font-weight:bolder;font-size: 20px
+}
+#filteropener:hover {background-color:#aa0;cursor:pointer;}
+
+.filter { margin:4px;white-space:nowrap;line-height:2.4;cursor:pointer;outline:4px solid #000; }
+.filter input {display:none;}
+.filter span {
+  background-color: black;
+  outline: 2px dotted;
+  user-select: none;
+  padding:4px;
+  font-weight:bold;
+  filter:brightness(0.6);
+}
+.filter input:checked + span {
+  outline-style:solid;
+  filter:brightness(1.0);
+}
+.filter span img { filter:brightness(0.6); }
+.filter input:checked + span img { filter:brightness(1); }
+.imgicon { height:16px;position:relative;top:2px }
+
+.iconblock {
+  white-space:nowrap;line-height:2.4;
+  outline: solid #fff;color:#fff;
+  background-color:#000;
+  user-select: none;
+  padding:4px; margin:4px;
+  font-weight:bold;
+}
+
+/*Tag Colors and icons*/
+span {outline-color:#fff;color:#fff}
+span.class_project {outline-color:#00ffb3!important;color:#00ffb3}
+.program > img {content:url("/files/logos/program.png")}
+span.game_jam {outline-color:#fa5c5c!important;color:#fa5c5c}
+.game_jam > img {content:url("/files/logos/jam.png")}
+span.group {outline-color:#0ff!important;color:#0ff}
+.group > img {content:url("/files/logos/grouper.png")}
+span.solo {outline-color:#d00!important;color:#d00}
+.solo > img {content:url("/files/logos/solo.png")}
+span.godot {outline-color:#4bf!important;color:#4bf}
+.godot > img {content:url("/files/logos/godot.png")}
+span.unity {outline-color:#bbb!important;color:#ddd}
+.unity > img {content:url("/files/logos/unity.png")}
+span.python {outline-color:#0bf!important;color:#ff0}
+.python > img {content:url("/files/logos/python.png")}
+span.cpp {outline-color:#07f!important;color:#5cf}
+.cpp > img {content:url("/files/logos/cpp.png")}
+span.cs {outline-color:#f0e!important;color:#f0e}
+.cs > img {content:url("/files/logos/csharp.png")}
+span.postgres {outline-color:#59e!important;color:#59e}
+.postgres > img {content:url("/files/logos/postgres.png")}
+span.java {outline-color:#f81!important;color:#f81}
+.java > img {content:url("/files/logos/java.png")}
+span.nim {outline-color:#fe5!important;color:#fe5}
+.nim > img {content:url("/files/logos/nimlang.png")}
+span.vhdl {outline-color:#db3!important;color:#db3}
+.vhdl > img {content:url("/files/logos/vivado.png")}
+
+/* just some icons for anchor elements i guess */
+.github > img {content:url("/files/logos/github.png")}
+.lnkdn > img {content:url("/files/logos/lnkdn.png")}
+
+footer {
+  margin-top:200px;
+  padding: 1em 0em;
+  border-top: 2px solid #fff;
+  text-align: center;
+}
+footer p {
+  width:100%;text-align:center;
+}
