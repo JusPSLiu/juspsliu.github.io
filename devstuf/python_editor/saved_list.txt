@@ -1,0 +1,232 @@
+Caaarrrrrds
+https://github.com/odesai840/Caaarrrrrds
+https://ckronstad.itch.io/caaarrrrrds
+game_jam group unity cs
+carrrds.jpg
+2026-March; Realtime card game created for 2 day game jam
+
+
+Uncredited
+https://github.com/JusPSLiu/spring26gamejam
+https://juspsliu.itch.io/uncredited
+game_jam solo godot
+uncredit.jpg
+2026-March; Basic first-person game for 2 day game jam
+
+
+Portfolio (This Website)
+
+
+solo program python vue
+webpage.jpg
+2026-March; Used Vue.js and deployed to GitHub Pages. Created tool in Python to easily edit .json file list of projects.
+
+T
+Maskollapse
+https://github.com/SweetFrontier/Maskollapse
+https://juspsliu.itch.io/maskollapse
+game_jam group godot
+maskollapse.png
+2026-January; Endless runner game created in team for 2 day Global Game Jam 2026
+
+
+Cheap Rent
+https://github.com/JusPSLiu/Triangle-Game
+https://juspsliu.itch.io/cheap-rent
+game_jam group godot
+cheaprent.png
+2026-January; Top-down 2D isometric game created in team for week long Triangle Game Jam 2026
+Learned to program isometric reordering logic
+
+Normbot
+https://github.com/404-Sever-Error/6112-Project
+
+class_project group program python
+normbot.png
+2025-November; Discord bot group project for capstone created to help create classroom discord servers.
+
+T
+Nimfinite Wallpapers
+https://github.com/JusPSLiu/NimfiniteWallpapers
+
+class_project group program nim
+nimwal.png
+2025-November; Wallpaper Engine clone using Nim language. This was a group class project (requirements were to collaborate and make anything in an uncommon language)
+
+T
+Kragal Fragal Froogal Freak
+https://github.com/JusPSLiu/Kragal-Fragal-Froogal-Freak
+https://juspsliu.itch.io/kragal-fragal-froogal-freak
+game_jam group godot
+kragalfragalfroogalfreak.jpg
+2025-November; Godot game created for 2 day game jam, collaborated in team to create using GitHub
+Developed custom screenspace shaders for blur (because what I found online ran too slow)
+
+Arduino Bad Apple
+https://drive.google.com/drive/folders/1QefjcDexo5Qp5HFIWMHQ4o9g25by8O37
+
+solo program python cpp
+arduino.jpg
+2025-October; Bad Apple and Never Gonna Give You Up on Arduino R4 Wi-Fi matrix display with audio. Python used to generate optimized C++ code to fit in memory.
+
+
+Game Jam Manager
+https://github.com/JusPSLiu/GameJamManager
+
+class_project solo program java
+jammanager.png
+2025-August; Program for class project, used Java's JFrame
+
+
+Jetronome
+https://github.com/JusPSLiu/Jetronome
+
+class_project solo unity cs
+jetronome.jpg
+2025-June; 2D platformer game created for project
+
+
+UART Subsystem in VHDL
+https://github.com/JusPSLiu/VHDL_Final_Project
+
+class_project group program vhdl
+uart.png
+2025-May; Group project UART subsystem in VHSIC Hardware Description Language (VHDL)
+i hate vivado so much guys you have no idea
+T
+Emergency Power
+https://github.com/SweetFrontier/2025_spring_jam_game
+https://sweetfrontier.itch.io/emergency-power
+game_jam group godot
+emergencypower.jpg
+2025-March; created basic first-person shooter for 2 day game jam
+
+
+Mazeling Escape
+https://github.com/JusPSLiu/Mazeling-Escape
+https://juspsliu.itch.io/mazeling-escape
+game_jam solo godot
+mazeling.jpg
+2024-October; Godot maze game created for week long game jam
+
+
+Heirloom Thief
+https://github.com/SweetFrontier/HeirloomThief
+https://sweetfrontier.itch.io/heirloom-thief
+game_jam group godot
+heirloom.png
+2024-October; Godot metroidvania game created for month long game jam
+
+
+To Ascend the Ship
+https://github.com/JusPSLiu/ToAscendTheShip
+https://juspsliu.itch.io/to-ascend-the-ship
+game_jam solo godot
+ascendship.png
+2024-August; Level-based 2D platformer game created for GMTK Game Jam
+
+
+MPI Monte Carlo Pi Calculation
+https://github.com/aaranl/ITCS-3145-Final-Project/blob/main/ping_pong/ping_pong.md
+
+class_project group program cpp
+pi_calc.png
+2024-June; Group multithreading project using the mpi.h library - project also includes secondary project timing two threads ping-ponging one another
+
+
+Geo Gemmer
+https://github.com/ZanderCow/geo-gemmer
+
+class_project group program python postgres
+geogem.png
+2024-April; Website with Python Flask backend using PostgreSQL, deployed on Render for a time.
+Used PostGIS extension to store user-generated longitude and latitude locations and calculate distance.
+T
+Cube Friends
+https://github.com/JusPSLiu/CubeFriends
+https://juspsliu.itch.io/cube-friends-adventure
+game_jam solo godot
+cube_fren.png
+2024-March; Story-based 2D platformer created for week long Acerola Jam Zero
+
+T
+One Lap
+https://github.com/SweetFrontier/2023Fall49HourJam
+https://sweetfrontier.itch.io/one-lap
+game_jam group godot
+onelap.jpg
+2023-November; Story-based 3D walking simulator game for 2 day game jam
+
+
+To Rebloom
+https://github.com/JusPSLiu/toRebloom
+https://juspsliu.itch.io/to-rebloom
+game_jam solo godot
+rebloom.jpg
+2023-October; 2D platformer in Godot created for week long game jam
+
+
+Rogue Science
+https://github.com/SweetFrontier/RogueScience
+https://sweetfrontier.itch.io/rogue-science
+game_jam group godot
+roguesci.jpg
+2023-September; 2D puzzle game in Godot for month long game jam
+
+
+Pleb Obliterator 999
+https://github.com/JusPSLiu/PlebObliterator999
+
+class_project solo cpp
+plebobliterat.jpg
+2023-August; Top-down 2D console window game created in introductory C++ course to test our polymorphism skills.
+I added unnecessary graphics, animations, story, and turn-based combat, all for fun.
+T
+Bookstore Management Simulation Program
+https://github.com/JusPSLiu/BookstoreProject
+
+class_project solo program java
+bookstore.jpg
+2023-May; Bookstore management project in console window created in introductory Java course.
+I added unnecessary graphics, animations, details, and sound effects, because I wass bored.
+
+The Last Can
+
+https://juspsliu.itch.io/the-last-can
+solo unity cs
+lastcan.jpg
+2023-April; 2D endless runner game. I created the assets for a game jam in the Fall of the previous year, but my team abandoned me so I made it myself.
+
+
+OrbitaLoop
+https://github.com/Ninjajkl/Orbit-Loop/tree/MouseControl
+https://sakarmit.itch.io/orbital-loop
+game_jam group godot
+orbitaloop.jpg
+2023-April; 2D space invaders style game for 2 day game jam.
+
+
+NBS-LRR
+https://github.com/SweetFrontier/NBSLRR
+https://globalgamejam.org/2023/games/nbslrr-0
+game_jam group unity cs
+nbslrr.jpg
+2023-February; 2D game created in unity for 2 day Global Game Jam
+
+
+SomeConnect4Algorithm
+https://github.com/JusPSLiu/SomeConnect4Algorithm
+
+solo program cpp
+connect4.png
+2023-January; Basic console window Connect 4 algorithm made in C++
+
+T
+Jus An Endless Console Runner
+https://github.com/JusPSLiu/JusAnEndlessConsoleRunner
+
+solo program cpp java
+endlessconsole.png
+2022-December; Console window endless runner made in Java, and remade in C++
+
+T

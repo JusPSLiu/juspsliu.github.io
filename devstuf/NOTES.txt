@@ -1,0 +1,24 @@
+TO ADD NEW TAG CATEGORY:
+    add to editor.py
+        - tagsList
+    add to main.css
+        - just add the class
+
+TO SEE LOCALLY
+npm run serve
+
+
+TO PUSH CHANGES:
+CAN USE AUTOMATED BUILD TOOL :DDD
+   ../compiling.bat
+
+
+npm run build
+
+copy dist/index.html dist/404.html
+
+git add .
+git commit
+git push
+
+git subtree push --prefix dist origin gh-pages
