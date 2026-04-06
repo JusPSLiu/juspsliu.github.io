@@ -214,7 +214,7 @@ nbslrr.jpg
 2023-February; 2D game created in unity for 2 day Global Game Jam
 
 
-SomeConnect4Algorithm
+Some Connect 4 Algorithm
 https://github.com/JusPSLiu/SomeConnect4Algorithm
 
 solo program cpp

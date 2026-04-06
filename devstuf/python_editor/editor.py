@@ -232,7 +232,8 @@ class ProjectEditor(QWidget):
         self.setWindowTitle("Edit "+thislist[0])
         # update vals
         for i in range(data_length):
-            save_data[self.index+i] = thislist[i]
+            if (i != 7): # skip fav because fav isnt here
+                save_data[self.index+i] = thislist[i]
         # save and refresh
         save_curr_data()
 

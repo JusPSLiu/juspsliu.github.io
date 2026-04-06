@@ -1,15 +1,17 @@
 <template>
-  <!--FILTER REGION-->
-  <div style="display:flex;justify-content: center;align-items: center;user-select: none">
-    <div class="filtercontainer closed">
-      <h3 style="margin:0 10px;margin-right:30%;text-shadow:2px 2px #000;font: 60px 'Jersey 10', sans-serif;">Filters</h3>
-      <label class="filter"><input type="checkbox" value="class_project" unchecked><span class="class_project">&nbsp;Class Project&nbsp;</span></label> <label class="filter"><input type="checkbox" value="game_jam" unchecked><span class="game_jam"><img class="imgicon" onerror="this.style.display='none'"> Game Jam</span></label> <label class="filter"><input type="checkbox" value="group" unchecked><span class="group"><img class="imgicon" onerror="this.style.display='none'"> Group Project</span></label> <label class="filter"><input type="checkbox" value="solo" unchecked><span class="solo"><img class="imgicon" onerror="this.style.display='none'"> Solo Project</span></label> <label class="filter"><input type="checkbox" value="program" unchecked><span class="program"><img class="imgicon" onerror="this.style.display='none'"> Program</span></label> <label class="filter"><input type="checkbox" value="godot" unchecked><span class="godot"><img class="imgicon" onerror="this.style.display='none'"> Godot</span></label> <label class="filter"><input type="checkbox" value="unity" unchecked><span class="unity"><img class="imgicon" onerror="this.style.display='none'"> Unity</span></label> <label class="filter"><input type="checkbox" value="python" unchecked><span class="python"><img class="imgicon" onerror="this.style.display='none'"> Python</span></label> <label class="filter"><input type="checkbox" value="cpp" unchecked><span class="cpp"><img class="imgicon" onerror="this.style.display='none'"> C++</span></label> <label class="filter"><input type="checkbox" value="cs" unchecked><span class="cs"><img class="imgicon" onerror="this.style.display='none'"> C#</span></label> <label class="filter"><input type="checkbox" value="postgres" unchecked><span class="postgres"><img class="imgicon" onerror="this.style.display='none'"> PostgreSQL</span></label> <label class="filter"><input type="checkbox" value="java" unchecked><span class="java"><img class="imgicon" onerror="this.style.display='none'"> Java</span></label> <label class="filter"><input type="checkbox" value="vue" unchecked><span class="vue"><img class="imgicon" onerror="this.style.display='none'"> Vue.js</span></label> <label class="filter"><input type="checkbox" value="nim" unchecked><span class="nim"><img class="imgicon" onerror="this.style.display='none'"> Nim</span></label> <label class="filter"><input type="checkbox" value="vhdl" unchecked><span class="vhdl"><img class="imgicon" onerror="this.style.display='none'"> VHDL</span></label>
+  <div class="ProjectsPage">
+    <!--FILTER REGION-->
+    <div style="display:flex;justify-content: center;align-items: center;user-select: none">
+      <div class="filtercontainer closed">
+        <h3 style="margin:0 10px;margin-right:30%;text-shadow:2px 2px #000;font: 60px 'Jersey 10', sans-serif;">Filters</h3>
+        <label class="filter"><input type="checkbox" value="class_project" unchecked><span class="class_project">&nbsp;Class Project&nbsp;</span></label> <label class="filter"><input type="checkbox" value="game_jam" unchecked><span class="game_jam"><img class="imgicon" onerror="this.style.display='none'"> Game Jam</span></label> <label class="filter"><input type="checkbox" value="group" unchecked><span class="group"><img class="imgicon" onerror="this.style.display='none'"> Group Project</span></label> <label class="filter"><input type="checkbox" value="solo" unchecked><span class="solo"><img class="imgicon" onerror="this.style.display='none'"> Solo Project</span></label> <label class="filter"><input type="checkbox" value="program" unchecked><span class="program"><img class="imgicon" onerror="this.style.display='none'"> Program</span></label> <label class="filter"><input type="checkbox" value="godot" unchecked><span class="godot"><img class="imgicon" onerror="this.style.display='none'"> Godot</span></label> <label class="filter"><input type="checkbox" value="unity" unchecked><span class="unity"><img class="imgicon" onerror="this.style.display='none'"> Unity</span></label> <label class="filter"><input type="checkbox" value="python" unchecked><span class="python"><img class="imgicon" onerror="this.style.display='none'"> Python</span></label> <label class="filter"><input type="checkbox" value="cpp" unchecked><span class="cpp"><img class="imgicon" onerror="this.style.display='none'"> C++</span></label> <label class="filter"><input type="checkbox" value="cs" unchecked><span class="cs"><img class="imgicon" onerror="this.style.display='none'"> C#</span></label> <label class="filter"><input type="checkbox" value="postgres" unchecked><span class="postgres"><img class="imgicon" onerror="this.style.display='none'"> PostgreSQL</span></label> <label class="filter"><input type="checkbox" value="java" unchecked><span class="java"><img class="imgicon" onerror="this.style.display='none'"> Java</span></label> <label class="filter"><input type="checkbox" value="vue" unchecked><span class="vue"><img class="imgicon" onerror="this.style.display='none'"> Vue.js</span></label> <label class="filter"><input type="checkbox" value="nim" unchecked><span class="nim"><img class="imgicon" onerror="this.style.display='none'"> Nim</span></label> <label class="filter"><input type="checkbox" value="vhdl" unchecked><span class="vhdl"><img class="imgicon" onerror="this.style.display='none'"> VHDL</span></label>
+      </div>
     </div>
-  </div>
-  <div><button id="filteropener">v</button></div>
+    <div><button id="filteropener">v</button></div>
 
-  <!--LIST OF PROJECTS; to be filled by javascript loading the json-->
-  <div id="projectlist"></div>
+    <!--LIST OF PROJECTS; to be filled by javascript loading the json-->
+    <div id="projectlist"></div>
+  </div>
 </template>
 
 <script>
@@ -19,27 +21,15 @@ export default {
   name: 'Projects',
   mounted() {
     function img_url(string) { return "files/screenshots/"+string; }
-
-    // tags list; order: ID, display name, icon name
-    const tagslist = [
-      ['class_project', '&nbsp;Class Project&nbsp;', false],
-      ['game_jam', 'Game Jam', true],
-      ['group', 'Group Project', true],
-      ['solo', 'Solo Project', true],
-      ['program', 'Program', true],
-      ['godot', 'Godot', true],
-      ['unity', 'Unity', true],
-      ['python', 'Python', true],
-      ['cpp', 'C++', true],
-      ['cs', 'C#', true],
-      ['java', 'Java', true],
-      ['vue', 'Vue.js', true],
-      ['postgres', 'PostgreSQL', true],
-      ['nim', 'Nim', true],
-      ['vhdl', 'VHDL', true]
-    ];
     
     import("@/assets/projectlist.json").then((data) => {
+      let tagslist = data.tagslist;
+      // VERIFY THE TAGS LIST IS SANITIZED
+      for (let i=0;i<tagslist.length;i++) {
+        tagslist[i][0] = DOMPurify.sanitize(tagslist[i][0], { USE_PROFILES: { } });
+        tagslist[i][1] = DOMPurify.sanitize(tagslist[i][1], { USE_PROFILES: { } });
+        tagslist[i][2] = (tagslist[i][2] === true)
+      }
 
       // LOAD THE CONTENTS
       let projectlist = document.querySelector("#projectlist");
@@ -47,7 +37,7 @@ export default {
 
       for (let i=0;i<data["size"];i++) {
         // SANITIZE
-        let newline = DOMPurify.sanitize(data[i.toString()], { USE_PROFILES: { html: false } });
+        let newline = DOMPurify.sanitize(data[i.toString()], { USE_PROFILES: { } });
         // SPLIT
         let newdata = newline.split("\n");
 
@@ -101,8 +91,10 @@ export default {
 
       // SET THE FILTER OPENER BUTTON
       let opener = document.querySelector("button#filteropener");
-      console.log(opener);
       opener.addEventListener('click', openFilters);
+
+      // RESET THE BACKGROUND NOW
+      this.$root.resetBackground()
     })
 
     function filterContents() {
@@ -112,7 +104,6 @@ export default {
       filter_checkboxes.forEach(checkbox => {
         if (checkbox.checked) {filter_list.push(checkbox.value)}
       });
-      console.log("FILTER LIST: "+filter_list)
 
       // if filter length is zero, deactivate filter
       let deactivate = (filter_list.length == 0);
