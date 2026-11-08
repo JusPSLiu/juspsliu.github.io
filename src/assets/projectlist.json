@@ -1,6 +1,6 @@
 {
 	"size": "30",
-	"0": "STM Microcontroller Virtual Pet\nhttps://github.com/JusPSLiu/ECGR-4101-5101-Project-2\nhttps://www.youtube.com/watch?v=eaWibnx9vdc\n0 2 8\naftof.jpg\nTamagochi thing made in C for embedded systems class\n",
+	"0": "STM Microcontroller Virtual Pet\nhttps://github.com/JusPSLiu/ECGR-4101-5101-Project-2\n\n0 2 8\naftof.jpg\nTamagochi thing made in C for embedded systems class\n",
 	"1": "Caaarrrrrds\nhttps://github.com/odesai840/Caaarrrrrds\nhttps://ckronstad.itch.io/caaarrrrrds\n1 2 6 9\ncarrrds.jpg\n2026-March; Realtime card game created for 2 day game jam\n",
 	"2": "Uncredited\nhttps://github.com/JusPSLiu/spring26gamejam\nhttps://juspsliu.itch.io/uncredited\n1 3 5\nuncredit.jpg\n2026-March; Basic first-person game for 2 day game jam\n",
 	"3": "Portfolio (This Website)\n\n\n3 4 7 11\nwebpage.jpg\n2026-March; Used Vue.js and deployed to GitHub Pages. Created tool in Python to easily edit .json file list of projects.\n",
