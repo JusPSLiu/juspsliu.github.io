@@ -1,3 +1,11 @@
+STM Microcontroller Virtual Pet
+https://github.com/JusPSLiu/ECGR-4101-5101-Project-2
+https://www.youtube.com/watch?v=eaWibnx9vdc
+class_project group cpp
+aftof.jpg
+Tamagochi thing made in C for embedded systems class
+
+
 Caaarrrrrds
 https://github.com/odesai840/Caaarrrrrds
 https://ckronstad.itch.io/caaarrrrrds
